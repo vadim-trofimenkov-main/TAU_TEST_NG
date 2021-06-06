@@ -12,7 +12,6 @@ public class LogIn2
 	@Test (dataProvider = "login-provider")
 	public void logIn (String email, String password, boolean success) 
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Rex Allen Jones II\\Downloads\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver ();
 		driver.manage().window().maximize();
 		
